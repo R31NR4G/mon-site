@@ -24,6 +24,18 @@
         </div>
       </header>
 
+    <a>
+       Au cours de l’année, l’infrastructure réseau a été entièrement déployée et optimisée : les bornes Wi-Fi Cisco/AP ont été positionnées
+        aux emplacements stratégiques, du câble Ethernet CAT6 S/FTP a été tiré et raccordé aux prises murales et aux panneaux de brassage,
+        les points d’accès ont été alimentés en PoE depuis les ports dédiés du switch, des tests de couverture ont été menés à l’aide d’outils
+        de site-survey mobiles, et la validation finale a été réalisée par la connexion d’un client (PC/mobile) avec mesure du débit et de la stabilité.
+        Parallèlement, le projet Web Radio a été développé de bout en bout : la carte Adafruit HUZZAH32 ESP32 et le module VS1053 ont été assemblés en SPI,
+        l’IDE Arduino a été configuré avec les bibliothèques ESP32 et Baldram pour permettre le décodage et la diffusion de flux MP3/AAC, des commandes
+        clavier ont été ajoutées pour ajuster le volume, les basses, les aigus, la tonalité et la spatialisation, WiFiManager a été intégré pour configurer
+        le Wi-Fi via une page captive avant migration vers ESP32\_VS1053\_Stream pour la gestion directe des URLs de streaming, le protocole MQTT (PubSubClient)
+        a été mis en œuvre pour piloter le lecteur depuis une application Android, et une documentation technique détaillée a été rédigée pour
+        la traçabilité et la maintenabilité du système.
+    </a>
 
        <section class="section-container">
         <div class="box">
@@ -39,6 +51,26 @@
               <li>Vérification de la couverture : test de signal avec une application mobile ou un logiciel de site-survey </li>
               <li>Validation finale : connexion d’un client (PC/mobile), mesure du débit et de la qualité de la connexion</li>
                 <a href="https://1drv.ms/p/c/b1b4c94721d87f86/EYZ_2CFHybQggLFBAgAAAAAB4y1B49pblpG86BkbA9i9hQ?e=vylldZ" target="_blank" rel="noopener"> Trace du travail</a>
+                <li>compétences travaillées: AC12.01, AC12.03, AC12.04, AC12.05</li>
+            </ul>
+          </div>
+        </div>
+
+         <section class="section-container">
+        <div class="box">
+          <div class="image">
+            <img src="Images/sae_radio.jpg" alt="Image 1">
+          </div>
+          <div class="content">
+            <h2>SAé 2.02 Mesurer et caractériser un signal ou un système</h2>
+            <ul>
+                <li>Assemblage du matériel : carte Adafruit HUZZAH32 ESP32 et module VS1053 câblés en SPI pour constituer la base matérielle de la Web Radio.</li>
+                <li>Configuration de l’environnement de développement : installation de l’IDE Arduino et des bibliothèques “esp32 by Espressif” et Baldram, puis mise au point d’un prototype de décodage et diffusion MP3/AAC.</li>
+                <li>  Ajout des commandes audio : implémentation de réglages clavier pour volume, basses, aigus, tonalité et spatialisation.
+                <li>Gestion dynamique du Wi-Fi : intégration de WiFiManager pour une configuration via page captive, suivie de la migration vers ESP32_VS1053_Stream pour la prise en charge directe des URL de streaming.</li>
+                <li>Pilotage à distance et documentation : mise en œuvre du protocole MQTT (PubSubClient) pour contrôler le lecteur depuis une application Android, et rédaction d’une documentation détaillée pour assurer la maintenance du projet.</li>
+                <a href="Images/SAE202-Web_Radio.pdf" target="_blank" rel="noopener"> Trace du travail</a>
+                <li>compétences travaillées: AC12.01, AC12.02</li>
             </ul>
           </div>
         </div>
@@ -47,10 +79,12 @@
         <div class="flex-container">
               <div class="flex-item">
                 <h3>Compétences Techniques</h3>
-                    <ul>         
+                  <ul>
                     <li>•AC12.01 | Mesurer, analyser et commenter les signaux  </li>
                     <li>•AC12.02 | Caractériser des systèmes de transmissions élémentaires et découvrir la modélisation mathématique de leur fonctionnement  </li>
                     <li>•AC12.03 | Déployer des supports de transmission  </li>
                     <li>•AC12.04 | Connecter les systèmes de ToIP </li>
                     <li>•AC12.05 | Communiquer avec un tiers (client, collaborateur...) et adapter son discours et sa langue à son interlocuteur </li>
-                    </ul>        
+                  </ul>
+              </div>
+        </div>
